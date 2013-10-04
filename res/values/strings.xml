@@ -3,7 +3,7 @@
 
     <string name="app_name">ISMETI</string>
     <string name="menu_settings">Settings</string>
-    <!-- <string name="action_settings">Settings</string> -->
+  
     <string name="info">Waiting for GPS signal...</string>
     <string name="unit_km">Kilometer</string>
     <string name="unit_miles">Miles</string>
