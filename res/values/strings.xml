@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ISMETI</string>
+    <string name="menu_settings">Settings</string>
+    <!-- <string name="action_settings">Settings</string> -->
+    <string name="info">Waiting for GPS signal...</string>
+    <string name="unit_km">Kilometer</string>
+    <string name="unit_miles">Miles</string>
+    <string name="setting_unit">Measurement Unit</string>
+    <string name="title_activity_speedometer_analog">SpeedometerAnalog</string>
+    <string name="action_settings">Settings</string>
+    <string name="Distanc">Distance: </string>
+    <string name="Time">Time: </string>
+    <string name="Speed">Speed: </string>
+    <string name="DistanceRes">0 m</string>
+    <string name="timeRes">0 Hour(s) 0 Minute(s) 0 Second(s)</string>
+    <string name="SpeedRes">0 Km/h</string>
+    <string name="BtnText">Start</string>
+    <string name="Off">OFF</string>
+    <string name="Auto">Auto</string>
+    <string name="On">ON</string>
+    <string name="strBtnrecord">Record Track</string>
+    <string name="BikeDesc">Bike Picture</string>
+
+</resources>

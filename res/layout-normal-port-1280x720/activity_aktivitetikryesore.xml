@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/background_carbon">
+
+  <Button
+      android:id="@+id/btnStartStop"
+      android:layout_width="match_parent"
+      android:layout_height="60dp"
+      android:layout_alignParentBottom="true"
+      android:layout_alignParentLeft="true"
+      android:background="@drawable/btnstart"
+      android:onClick="buttonClick"
+      android:text="@string/BtnText"
+      android:textColor="@android:color/white" />
+
+  <fragment
+      android:id="@+id/map"
+      android:layout_width="match_parent"
+      android:layout_height="354dp"
+      android:layout_above="@+id/btnStartStop"
+      android:layout_alignParentLeft="true"
+      android:layout_below="@+id/txtSpeedRes"
+      class="com.google.android.gms.maps.SupportMapFragment" />
+
+  <TextView
+      android:id="@+id/txtDistance"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentTop="true"
+      android:textColor="@android:color/white"
+      android:text="@string/Distanc" />
+
+  <TextView
+      android:id="@+id/txtSpeedRes"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/txtTime"
+      android:layout_toRightOf="@+id/txtDistance"
+      android:textColor="@android:color/white"
+      android:text="@string/SpeedRes" />
+
+  <TextView
+      android:id="@+id/txtTimeRes"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_above="@+id/txtSpeedRes"
+      android:layout_toRightOf="@+id/txtDistance"
+      android:textColor="@android:color/white"
+      android:text="@string/timeRes" />
+
+  <TextView
+      android:id="@+id/txtDistanceRes"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignLeft="@+id/txtTimeRes"
+      android:layout_alignParentTop="true"
+      android:textColor="@android:color/white"
+      android:text="@string/DistanceRes" />
+
+  <TextView
+      android:id="@+id/txtTime"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_below="@+id/txtDistance"
+      android:text="@string/Time"
+      android:textColor="@android:color/white" />
+
+  <TextView
+      android:id="@+id/txtSpeed"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_below="@+id/txtTime"
+      android:text="@string/Speed"
+      android:textColor="@android:color/white" />
+
+</RelativeLayout>
